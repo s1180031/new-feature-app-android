@@ -35,7 +35,6 @@ android {
 }
 
 dependencies {
-
     implementation(fileTree("dir" to "libs", "include" to listOf("*.jar")))
     implementation("androidx.core:core-ktx:1.3.2")
     implementation("androidx.appcompat:appcompat:1.2.0")
